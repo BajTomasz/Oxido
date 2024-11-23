@@ -59,3 +59,7 @@ The resulting HTML file (`artykul.html`) will contain well-structured HTML code 
 
 * Make sure to provide a valid OpenAI API key in the `config.json` file.
 * Ensure the URL in `config.json` points to a valid text resource.
+
+## ToDo
+
+* Add tests to benchmark prompts
