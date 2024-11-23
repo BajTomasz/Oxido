@@ -1,2 +1,6 @@
-openai
+json
+logging
+sys
+typing
 requests
+openai
