@@ -3,7 +3,7 @@ from file_operations import fetch_text_from_url, generate_html, insert_article_i
 
 
 def main():
-    prompt_library = open_json("promptLibrary.json")
+    prompt_library = open_json("prompt_library.json")
     config = open_json("config.json")
     article = fetch_text_from_url(config.get("url"))
     article_html = generate_html(config.get("api_key"), prompt_library.get("system-gen-article"), article)

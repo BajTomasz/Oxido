@@ -62,4 +62,5 @@ The resulting HTML file (`artykul.html`) will contain well-structured HTML code 
 
 ## ToDo
 
-* Add tests to benchmark prompts
+* Add tests to benchmark prompts.
+* Separate generation of prompts for generating images based on a fragment.
